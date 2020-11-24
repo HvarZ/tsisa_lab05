@@ -12,3 +12,7 @@ a = -5,
 b = 0,
 N = 32,
 A = 0.2,
+
+Результат работы программы представлен в скриншоте:
+
+![lab-01_Part1](https://github.com/HvarZ/tsisa_lab05/blob/master/screenshots/screenshots.png)
