@@ -9,11 +9,11 @@ int main () {
     const size_t N = 32;
     const double A = 0.2;
 
-    auto network = fill_network(c, d, A, a, b, N); // заполнение нейронной сети
+    auto network = fill_network(c, d, A, a, b, N);
 
-    auto w_result = result(network); // нахождение весовых коеффициентов
+    auto w_result = result(network);
 
-    print(network); // печать значений
+    print(network);
 
     std::cout << "=======================Result=======================" << std::endl;
     std::cout << "w1 = " << w_result.second << " | " << "w0 = " << w_result.first << std::endl;
