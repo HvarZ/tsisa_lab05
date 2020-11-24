@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zahar/CLionProjects/tsisa_lab05/include/neural_network.hpp
+random
+-
+vector
+-
+cmath
+-
+iostream
+-
+utility
+-
+algorithm
+-
+
+/Users/zahar/CLionProjects/tsisa_lab05/main.cpp
+include/neural_network.hpp
+/Users/zahar/CLionProjects/tsisa_lab05/include/neural_network.hpp
+
