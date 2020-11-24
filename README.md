@@ -15,4 +15,5 @@ A = 0.2,
 
 Результат работы программы представлен в скриншоте:
 
-![lab-01_Part1](https://github.com/HvarZ/tsisa_lab05/blob/master/screenshots/screenshots.png)
+![lab-05_Part1](https://github.com/HvarZ/tsisa_lab05/blob/master/screenshots/screenshots.png)
+![lab-05 Part2](https://github.com/HvarZ/tsisa_lab05/blob/master/screenshots/screenshot_2.png)
