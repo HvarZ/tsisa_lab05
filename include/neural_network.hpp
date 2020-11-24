@@ -1,6 +1,3 @@
-//
-// Created by Захар on 22.11.2020.
-//
 
 #ifndef TSISA_LAB05_NEURAL_NETWORK_HPP
 #define TSISA_LAB05_NEURAL_NETWORK_HPP
