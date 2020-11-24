@@ -3,4 +3,4 @@ project(tsisa_lab05)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(tsisa_lab05 main.cpp include/neural_network.hpp)
+add_executable(tsisa_lab05 source/main.cpp include/neural_network.hpp)

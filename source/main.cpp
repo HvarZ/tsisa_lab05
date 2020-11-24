@@ -1,4 +1,4 @@
-#include "include/neural_network.hpp"
+#include "../include/neural_network.hpp"
 
 int main () {
     // Variant 15
