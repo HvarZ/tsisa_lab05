@@ -1,4 +1,3 @@
-
 #ifndef TSISA_LAB05_NEURAL_NETWORK_HPP
 #define TSISA_LAB05_NEURAL_NETWORK_HPP
 
@@ -7,6 +6,8 @@
 #include <cmath>
 #include <iostream>
 #include <utility>
+
+
 #include <algorithm>
 
 using std::cout;
@@ -35,22 +36,6 @@ public:
     [[nodiscard]] auto get_y() const noexcept -> double {
         return y;
     }
-
-    auto operator<(neuron& neuron1) const -> bool {
-        return y < neuron1.y;
-    }
-
-    auto operator==(neuron& neuron1) const -> bool {
-        return y == neuron1.y && x == neuron1.x;
-    }
-
-    neuron(neuron& neuron1) {
-        x = neuron1.x;
-        y = neuron1.y;
-    }
-
-    neuron& operator=(const neuron& neuron1) = default;
-
 };
 
 auto random(const double a, const double b) -> double {
@@ -127,7 +112,5 @@ auto result(const std::vector<neuron>& neurons) -> std::pair<double, double> { /
         std::cout << "x: " << neuron.get_x() << " | " << "y: " << neuron.get_y() << std::endl;
     }
 }
-
-
 
 #endif //TSISA_LAB05_NEURAL_NETWORK_HPP
